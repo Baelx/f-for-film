@@ -1,0 +1,10 @@
+.page-links {
+  position: relative;
+  z-index: 1;
+  margin: 0 0 40px 0;
+  @mixin atSmallMedium {
+    margin: 0 0 40px 20px;
+    width: 300px;
+    float: right;
+  }
+}
